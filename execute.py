@@ -1,5 +1,3 @@
-import sys
-import csv
 import glob
 import pandas as pd
 
