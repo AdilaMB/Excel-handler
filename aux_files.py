@@ -18,7 +18,7 @@ for f in filenames:
 
 #Name of the file and path
     new_nome = "dato.csv"
-    path = r'C:\\Users\\Adila\\Desktop\\csv\\'
+    path = r'C:\\Users\\Desktop\\csv\\'
 
     # Save in csv
     data.to_csv(path + new_nome, sep=";", encoding="utf8")
@@ -36,6 +36,12 @@ for f in filenames:
     # data.columns = data.loc[1]
 
     #--------------- Load de file
-    # file = r"C:\\Users\\Adila\\Desktop\\csv\\301010 - Medidas Encerradas.xlsx"
+    # file = r"C:\\doc.xlsx"
     # my_file= pd.read_excel(file)
     # data = pd.DataFrame(my_file)
+
+    #new DataFrame, assigning a head to the columns
+    #df = pd.DataFrame(columns = [cabezal])
+    #----------------
+    # Creo nuevo DataFrame com el cabezal y lo concateno en el fichero datos.xlsx
+    # df = pd.DataFrame([[1, 2], [3, 4]], columns=list('AB'))
